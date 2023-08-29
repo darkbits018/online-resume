@@ -1,0 +1,32 @@
+{% assign tools = site.data.data.tools %}
+{% if tools %}
+<section class="skills-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
+      <!-- <i class="fas fa-user-gear fa-stack-1x fa-inverse "></i> -->
+    </span>
+    {{ tools.title }}
+  </h2>
+
+  <div class="skillset">
+
+    {% for Sskill in tools.toolset %}
+    <div class="item">
+
+      <h3 class="level-title">{{ Sskill.name }}</h3>
+
+      <!-- <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div>level-bar -->
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills-section-->
+{% endif %}

@@ -1,0 +1,235 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Abhay
+    tagline: Student
+    avatar: Profilepicture.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: abhaygp18@gmail.com
+    phone: +91 9986905655
+    timezone: 
+    citizenship: Indian
+    website: #do not add http://
+    linkedin: abhay-patgar
+    xing: 
+    github: darkbits018
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@united_emotion'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Kannada
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+        - idiom: Hindi
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Drawing / Illustrations
+          link:
+
+        - item: Reading Novel
+          link:
+
+        - item: Photography
+          link:
+        
+        - item: Gaming
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I seek a position to utilize my skills and abilities in a
+      progressive organization that offers scope to apply my
+      knowledge and skills.
+      I love Programming and Technologies, I am a vivid reader and
+      always seek new things to learn and be experimental
+education:
+    title: Education
+    info:
+      - degree: B.E Computer Science and Engineering
+        university: City Engineering College, Bangalore
+        time: Graduating in 2024
+        details: |
+        
+      - degree: 12th standard
+        university: ICS Mahesh PU college, Dharawad / Pre-University.
+          Karnataka state board
+        time: March 2020
+        details: |
+
+      - degree: 10th standard
+        university: Vishwadarshana English Medium High School, Yellapur
+        time: April 2018
+        details: |
+          
+
+experiences:
+    title: Experiences
+    info:
+      - role: Intern
+        time: Aug 2023 - Present  #2023 (1 Month)
+        company: Rayabhari Technologies Pvt.Ltd.
+        details: |
+          As an Intern, Working on implementation of Deep learning Models in the flutter Apps.
+
+      - role: Student
+        time: Feb 2020 - Present
+        company: The Odin Project
+        details: |
+          Pursuing the road to Full-Stack Web Development.
+          Learning HTML, CSS, JavaScript and Ruby
+
+certifications:
+      title: Certifications
+      list:
+        - name: Git Certified Specialist by GitKraken
+          start: 2022 November
+          end: 
+          organization: GitKraken Learn
+          credentialid: h7nagukrrx
+          credentialurl: learn.gitkraken.com/certificates/h7nagukrrx
+          credentialname: Foundations of Git
+          details: |
+
+        - name: PYTHON for Beginners
+          start: 2022 November
+          end: 
+          organization: Devtown
+          credentialid: ZeXIew
+          credentialurl: cert.devtown.in/verify/ZeXIew
+          credentialname: Python
+          details: |
+            
+
+projects:
+    title: Projects
+    intro: >
+    assignments:
+      - title: Live A Little - A Photoblog
+        link: "https://livealittle.netlify.app/"
+        tagline: "A hobby website to Showcase my awesome Photos"
+
+      - title: Google HomePage Clone
+        link: "https://darkbits018.github.io/google-homepage/"
+        tagline: "A Clone of Google homepage using HTML, CSS"
+
+      - title: Simple Landing Page
+        link: "https://darkbits018.github.io/landingPage/"
+        tagline: "A Simple Landing Page using HTML, CSS"
+      
+      - title: Functional weeder
+        link: "#"
+        tagline: "Participated in the development of a robotic solution for Functional Weeder. Developed using Elixer"
+
+
+oss:
+    title: OSS Contributions
+    intro: >
+
+    contributions:
+      - title:
+        link: 
+        tagline: 
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Technical Skills
+
+    toolset:
+      - name: Adept in Windows,Linux and MacOS
+
+      - name: Proficient in HTML5, CSS and Javascript
+        level: 95%
+      
+      - name: Proficient in C/C++ 
+
+      - name: Familiarity With Ruby on Rails
+        level: 85%
+
+      - name: Familiarity With Figma
+        level: 60%
+      
+      - name: Familiarity With PHP
+
+      - name: Familiarity With Python and Flask
+        level: 
+
+
+
+
+
+Sskills:
+    title: Soft Skills
+
+    toolset:
+      - name: Project Management
+
+      - name: Teamwork
+        level: 95%
+      
+      - name: Adaptability
+
+      - name: Problem Solving
+        level: 85%
+
+
+
+tools:
+    title: Dev Tools
+
+    toolset:
+      - name: VS Code
+
+      - name: Git and Github
+        level: 95%
+      
+      - name: Android Studio
+
+      - name: PyCharm
+        level: 85%
+
+footer: >
+    
